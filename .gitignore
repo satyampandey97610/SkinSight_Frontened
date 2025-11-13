@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Datasets
+Dataset_Minor_Skin/
+Dataset_Minor_Skin_Resized/
+
+# Training checkpoints
+training_checkpoints/
+OLD MODELS/
+
+# Model files
+*.h5
+*.keras
+
+# Environment files
+.env
