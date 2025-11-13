@@ -13,12 +13,17 @@ venv/
 Dataset_Minor_Skin/
 Dataset_Minor_Skin_Resized/
 
-# Training checkpoints
+# Training checkpoints (safe to ignore)
 training_checkpoints/
 OLD MODELS/
-important_models/
 
-# Block model files
+# Ignore ONLY .h5 model files
+# (your final .keras model will NOT be ignored)
 *.h5
-# Environment files
+
+# Environment file (keep secret)
 .env
+
+# OS / Editor files
+.vscode/
+.DS_Store
