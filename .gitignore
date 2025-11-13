@@ -16,14 +16,9 @@ Dataset_Minor_Skin_Resized/
 # Training checkpoints
 training_checkpoints/
 OLD MODELS/
+important_models/
+
 # Block model files
 *.h5
-*.keras
-
-# ALLOW only this specific model
-!important_models/
-!important_models/skin_disease_model_mobilenetv2_final.keras
-
-
 # Environment files
 .env
